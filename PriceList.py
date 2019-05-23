@@ -6,3 +6,5 @@ class Prices:
 
         self.ribeye  = 13
         self.ground_beef = 5
+        self.eggs = 1
+        
