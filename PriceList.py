@@ -5,4 +5,4 @@ class Prices:
         #Initialize prices per lb
 
         self.ribeye  = 12
-        self.ground_beef = 4
+        self.ground_beef = 5
