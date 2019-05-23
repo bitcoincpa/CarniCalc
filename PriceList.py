@@ -4,5 +4,5 @@ class Prices:
     def __init__(self):
         #Initialize prices per lb
 
-        self.ribeye  = 12
+        self.ribeye  = 13
         self.ground_beef = 5
