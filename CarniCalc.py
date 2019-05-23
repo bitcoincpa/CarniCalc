@@ -1,4 +1,4 @@
-import PriceList as pl
+import PriceList
 
 print("Hello Carnis")
 #budget_input = "What is your daily budget?"
@@ -8,7 +8,7 @@ class Meal:
     def __init__(self, budget, lb):
         self.budget = budget
         self.lb = lb
-        self.price = pl.Prices()
+        self.price = PriceList.Prices()
         
 
 
@@ -17,6 +17,6 @@ class Meal:
         return total
 
     
-ribeye = Meal(10,10)
+dave = Meal(10,10)
 
-print(ribeye.priceperlb())
+print(dave.priceperlb())
